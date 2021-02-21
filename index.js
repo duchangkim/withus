@@ -8,7 +8,7 @@ const shelterAnimal = [
   },
   {
     href: 'http://www.saac.kr/?act=board&bbs_code=sub2_1',
-    image: 'http://www.saac.kr/data/file/logo.jpg',
+    image: 'assets/images/logo.jpg',
     title: '서울 유기동물 입양센터',
   },
   {
@@ -61,7 +61,7 @@ const dogs = [
   },
   {
     href: 'http://www.best-dachshund.com',
-    image: 'http://www.best-dachshund.com/sh_img/hd/top_menu/logo.png',
+    image: 'assets/images/dog01.png',
     title: '닥스훈트 베르네집',
   },
 ];
@@ -135,7 +135,7 @@ const birds = [
   },
   {
     href: 'http://www.birdzoo.org/main.html',
-    image: 'http://www.birdzoo.org/m/images/logo.png',
+    image: 'assets/images/bird01.png',
     title: '앵무새동물원',
   },
   {
@@ -170,8 +170,7 @@ const reptiles = [
   },
   {
     href: 'http://www.jungle-pet.co.kr/shop/main/index.php',
-    image:
-      'http://www.jungle-pet.co.kr/shop/data/skin/everybag/img/banner/Copy-AD.jpg',
+    image: 'assets/images/jungle_pet.jpg',
     title: '정글펫',
   },
   {
