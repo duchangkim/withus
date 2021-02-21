@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'SDSamliphopangche_Outline';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JSDongkang-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body,
+div,
+header,
+h1,
+h2,
+h3,
+ul,
+li,
+footer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #2b2b2b;
+  cursor: default;
+}
+a {
+  color: #2b2b2b;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+html {
+  font-size: 10px;
+}
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+}
+
+.title {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 12rem;
+  font-family: 'SDSamliphopangche_Outline';
+}
+.sub-title {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'GmarketSansLight';
+}
+
+.sites-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.list-wrap {
+  position: relative;
+  overflow-y: scroll;
+  max-height: 90rem;
+  margin-top: 7rem;
+  padding: 2rem;
+  padding-top: 0;
+  border: 2px solid #929292;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 1.5rem #d3d3d3;
+}
+.list-wrap::-webkit-scrollbar {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.list-wrap::-webkit-scrollbar-thumb {
+  border-radius: 0.35rem;
+  background-color: #cccccc;
+}
+.list-wrap::-webkit-scrollbar-thumb:hover {
+  background-color: #d6d6d6;
+}
+.list-wrap::-webkit-scrollbar-track {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.list-title {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'JSDongkang-Regular';
+}
+.list-wrap ul li {
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+.list-wrap ul li:hover {
+  background-color: #e6e6e662;
+}
+.list-wrap ul li a img {
+  max-width: 40rem;
+  margin-bottom: 0.8rem;
+}
+.list-wrap ul li a div {
+  font-family: 'JSDongkang-Regular';
+  font-size: 2rem;
+}
+
+footer {
+  width: 100%;
+  height: 5rem;
+}
