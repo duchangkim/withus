@@ -31,32 +31,32 @@ const shelterAnimal = [
 const dogs = [
   {
     href: 'https://blog.naver.com/pinkpega77',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '타라 아프간하운드 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/jdogs',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '비숑, 함께여서 즐거운... (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/yjm0203',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '쥬쥬폼 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/jjooooooooon',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '카사노바에리켄넬 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/hvk3123',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '히든밸리켄넬 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/gogolang',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '제이드스타 셀티*셔틀랜드쉽독 (네이버 블로그)',
   },
   {
@@ -70,48 +70,48 @@ const cats = [
   {
     href:
       'https://blog.naver.com/PostList.nhn?blogId=catopia9&from=postList&categoryNo=8',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '캣토피아 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/ejejs7894',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '엔젤돌스 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/ragdoll___',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '랙돌캐터리 (네이버 블로그)',
   },
   {
     href:
       'https://blog.naver.com/PostList.nhn?blogId=go4nam&from=postList&categoryNo=17',
-    image: '/assets/images/cat01.png',
+    image: 'assets/images/cat01.png',
     title: '묘한인생 (네이버 블로그) - 성남시 분당구',
   },
   {
     href: 'https://blog.naver.com/kokata100',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '나무타는 고양이와 구경하는 강아지',
   },
   {
     href: 'https://blog.naver.com/myohancattery',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '묘한캐터리 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/pixiewings',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '픽시윙스 데본렉스캐터리 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/dalbodre',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '스코티시폴드 캐터리 달보드레 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/fnfnfjfj',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '아메리칸 숏헤어 캐터리 (네이버 블로그)',
   },
 ];
@@ -119,7 +119,7 @@ const cats = [
 const birds = [
   {
     href: 'https://blog.naver.com/dnmparrotsfarm',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: 'D&M Parrots farm (네이버 블로그)',
   },
   {
@@ -145,7 +145,7 @@ const birds = [
   },
   {
     href: 'https://blog.naver.com/PostList.nhn?blogId=badara8282',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '충남.내포.앵무새농장 (네이버 블로그)',
   },
   {
@@ -156,7 +156,7 @@ const birds = [
   },
   {
     href: 'https://cafe.naver.com/birdskool',
-    image: '/assets/images/naver.png',
+    image: 'assets/images/naver.png',
     title: '버드스쿨 (네이버 카페)',
   },
 ];
