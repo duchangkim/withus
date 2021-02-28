@@ -248,26 +248,59 @@ const init = () => {
  * @param {HTMLUListElement} listDOM
  */
 const listLoop = (list, listDOM) => {
+  const className =
+    list === shelterAnimal
+      ? 'shelter-animal'
+      : list === dogs
+      ? 'dogs'
+      : list === cats
+      ? 'cats'
+      : list === birds
+      ? 'birds'
+      : 'reptiles';
+
   list.forEach((site, index) => {
     const li = document.createElement('li');
+    li.className = className;
 
     const a = document.createElement('a');
     a.href = site.href;
     a.target = '_blank';
+    a.className = className;
 
     const img = document.createElement('img');
     img.src = site.image;
     img.alt = site.title;
+    img.className = className;
 
     const div = document.createElement('div');
     div.innerText = site.title;
+    div.className = className;
 
     a.append(img, div);
     li.append(a);
-    // li.id = index;
+    li.className = className;
+
+    li.addEventListener('click', sendGA);
 
     listDOM.append(li);
   });
+};
+
+const sendGA = (event) => {
+  const eventAction =
+    event.target.className === 'shelter-animal'
+      ? '유기동물 입양 사이트 방문'
+      : event.target.className === 'dogs'
+      ? '반려견 분양 사이트 방문'
+      : event.target.className === 'cats'
+      ? '반려묘 분양 사이트 방문'
+      : event.target.className === 'birds'
+      ? '반려조 분양 사이트 방문'
+      : '반려파충류/양서류 분양 사이트 방문';
+
+  // console.log('call gtag');
+  gtag('send', 'event', '분양 사이트별 방문 수', eventAction, 1);
 };
 
 init();
