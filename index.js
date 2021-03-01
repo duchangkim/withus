@@ -300,7 +300,10 @@ const sendGA = (event) => {
       : '반려파충류/양서류 분양';
 
   console.log('call ga');
-  ga('send', 'event', '카테고리별 분양 사이트 방문', '방문 수', eventLabel, 1);
+  gtag('event', '분양 사이트 방문', {
+    event_category: '카테고리별 분양 사이트 방문',
+    event_label: eventLabel,
+  });
 };
 
 init();
