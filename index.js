@@ -288,19 +288,19 @@ const listLoop = (list, listDOM) => {
 };
 
 const sendGA = (event) => {
-  const eventAction =
+  const eventLabel =
     event.target.className === 'shelter-animal'
-      ? '유기동물 입양 사이트 방문'
+      ? '유기동물 입양'
       : event.target.className === 'dogs'
-      ? '반려견 분양 사이트 방문'
+      ? '반려견 분양'
       : event.target.className === 'cats'
-      ? '반려묘 분양 사이트 방문'
+      ? '반려묘 분양'
       : event.target.className === 'birds'
-      ? '반려조 분양 사이트 방문'
-      : '반려파충류/양서류 분양 사이트 방문';
+      ? '반려조 분양'
+      : '반려파충류/양서류 분양';
 
-  // console.log('call gtag');
-  gtag('send', 'event', '분양 사이트별 방문 수', eventAction, 1);
+  console.log('call ga');
+  ga('send', 'event', '카테고리별 분양 사이트 방문', '방문 수', eventLabel, 1);
 };
 
 init();
