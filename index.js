@@ -64,6 +64,54 @@ const dogs = [
     image: 'assets/images/dog01.png',
     title: '닥스훈트 베르네집',
   },
+  {
+    href: 'http://www.monamik9.com',
+    image: 'http://www.monamik9.com/data/file/logo.gif',
+    title: '모나미애견훈련소',
+  },
+  {
+    href: 'https://cafe.naver.com/d0g',
+    image: 'assets/images/naver.png',
+    title: '토토페키니즈',
+  },
+  {
+    href: 'https://blog.naver.com/shibainuha_chi',
+    image: 'assets/images/blog.png',
+    title: '가도켄넬(시바견)',
+  },
+  {
+    href: 'https://www.instagram.com/pomekennel/',
+    image:
+      'https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png',
+    title: '포메켄넬',
+  },
+  {
+    href: 'https://blog.naver.com/bearbox',
+    image:
+      'https://blogpfthumb-phinf.pstatic.net/20160525_108/bearbox_1464162450381mSO6y_JPEG/IMG_2835-2.jpg?type=w161',
+    title: '로베르토',
+  },
+  {
+    href: 'https://blog.naver.com/qkrducjs',
+    image: 'assets/images/blog.png',
+    title: '알곡켄넬',
+  },
+  {
+    href: 'https://blog.naver.com/coldbay',
+    image: 'assets/images/blog.png',
+    title: '콜드베이',
+  },
+  {
+    href: 'https://www.instagram.com/champion.kennel/',
+    image:
+      'https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png',
+    title: '챔피언켄넬',
+  },
+  // {
+  //   href: '',
+  //   image: '',
+  //   title: '',
+  // },
 ];
 // 빈려묘 입양
 const cats = [
@@ -114,6 +162,78 @@ const cats = [
     image: 'assets/images/blog.png',
     title: '아메리칸 숏헤어 캐터리 (네이버 블로그)',
   },
+  {
+    href: 'https://blog.naver.com/abyqueen',
+    image:
+      'https://blogpfthumb-phinf.pstatic.net/20131118_111/abyqueen_1384747823305x80jc_JPEG/EDSC03093s-2.jpg?type=w161',
+    title: '아비퀸',
+  },
+  {
+    href: 'https://blog.naver.com/pama2003',
+    image: 'assets/images/blog.png',
+    title: '달래캐터리',
+  },
+  {
+    href: 'https://www.elrohicat.com',
+    image:
+      'https://static.wixstatic.com/media/fae27a_bf6778ee36f0449886dd3c74cf1ffaae~mv2.png/v1/fill/w_600,h_357,al_c,q_85,usm_0.66_1.00_0.01/%E1%84%8B%E1%85%A6%E1%86%AF%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5_%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8E%E1%85%A9%E1%84%85%E1%85%A9%E1%86%BC%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%E1%86%AB_wh%E1%84%8B%E1%85%A6%E1%86%A8%E1%84%8C%E1%85%AD%E1%84%90%E1%85%B5%E1%86%A8%E1%84%86%E1%85%AE%E1%86%AB%E1%84%80%E1%85%AE.webp',
+    title: '엘로하이',
+  },
+  {
+    href: 'https://blog.naver.com/miki9950',
+    image: 'assets/images/blog.png',
+    title: '그린토파즈',
+  },
+  {
+    href: 'https://blog.naver.com/neverland_cat',
+    image: 'assets/images/blog.png',
+    title: '네버랜드 캣',
+  },
+  {
+    href: 'https://blog.naver.com/spariver',
+    image: 'assets/images/blog.png',
+    title: '스파리버',
+  },
+  {
+    href: 'https://blog.naver.com/nhyas2',
+    image: 'assets/images/blog.png',
+    title: '포래그',
+  },
+  {
+    href: 'https://blog.naver.com/suwonck',
+    image: 'assets/images/blog.png',
+    title: '글라우브',
+  },
+  {
+    href: 'https://blog.naver.com/appledolls',
+    image: 'assets/images/blog.png',
+    title: '애플돌스',
+  },
+  {
+    href: 'https://blog.naver.com/great_delight',
+    image: 'assets/images/blog.png',
+    title: '그래댈',
+  },
+  {
+    href: 'https://blog.naver.com/vavidolls',
+    image: 'assets/images/blog.png',
+    title: '바비돌',
+  },
+  {
+    href: 'https://blog.naver.com/mondscheinrb',
+    image: 'assets/images/blog.png',
+    title: '달빛',
+  },
+  {
+    href: 'https://blog.naver.com/kjhkuri',
+    image: 'assets/images/blog.png',
+    title: '소말리',
+  },
+  // {
+  //   href: '',
+  //   image: '',
+  //   title: '',
+  // },
 ];
 // 반려조 입양
 const birds = [
@@ -158,6 +278,22 @@ const birds = [
     href: 'https://cafe.naver.com/birdskool',
     image: 'assets/images/naver.png',
     title: '버드스쿨 (네이버 카페)',
+  },
+  {
+    href: 'https://blog.naver.com/anziman',
+    image: 'assets/images/blog.png',
+    title: '대구앵무새농장',
+  },
+  {
+    href: 'https://blog.naver.com/gozip14',
+    image:
+      'https://blogpfthumb-phinf.pstatic.net/MjAxODEyMTlfMjU3/MDAxNTQ1MjA5ODgyMjQz._OmgOTnOfaWLCcQPTDWfOtDXL98jm2uwo5tfTz3ax5og.vXTh3mAzJ4y9rJoLRaawa4dO0XCTDX4c89xeLK2N2s4g.PNG.gozip14/%25C7%25C1%25B7%25CE%25C7%25CA.png?type=w161',
+    title: '앵무새 숲',
+  },
+  {
+    href: 'https://blog.naver.com/cabellan',
+    image: 'assets/images/blog.png',
+    title: '상주앵무새농장',
   },
 ];
 // 양서 파충류 입양
