@@ -8,7 +8,7 @@ const shelterAnimal = [
   },
   {
     href: 'http://www.saac.kr/?act=board&bbs_code=sub2_1',
-    image: 'http://www.saac.kr/data/file/logo.jpg',
+    image: 'assets/images/logo.jpg',
     title: '서울 유기동물 입양센터',
   },
   {
@@ -31,95 +31,215 @@ const shelterAnimal = [
 const dogs = [
   {
     href: 'https://blog.naver.com/pinkpega77',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '타라 아프간하운드 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/jdogs',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '비숑, 함께여서 즐거운... (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/yjm0203',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '쥬쥬폼 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/jjooooooooon',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '카사노바에리켄넬 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/hvk3123',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '히든밸리켄넬 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/gogolang',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '제이드스타 셀티*셔틀랜드쉽독 (네이버 블로그)',
   },
   {
     href: 'http://www.best-dachshund.com',
-    image: 'http://www.best-dachshund.com/sh_img/hd/top_menu/logo.png',
+    image: 'assets/images/dog01.png',
     title: '닥스훈트 베르네집',
   },
+  {
+    href: 'http://www.monamik9.com',
+    image: 'http://www.monamik9.com/data/file/logo.gif',
+    title: '모나미애견훈련소',
+  },
+  {
+    href: 'https://cafe.naver.com/d0g',
+    image: 'assets/images/naver.png',
+    title: '토토페키니즈',
+  },
+  {
+    href: 'https://blog.naver.com/shibainuha_chi',
+    image: 'assets/images/blog.png',
+    title: '가도켄넬(시바견)',
+  },
+  {
+    href: 'https://www.instagram.com/pomekennel/',
+    image:
+      'https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png',
+    title: '포메켄넬',
+  },
+  {
+    href: 'https://blog.naver.com/bearbox',
+    image:
+      'https://blogpfthumb-phinf.pstatic.net/20160525_108/bearbox_1464162450381mSO6y_JPEG/IMG_2835-2.jpg?type=w161',
+    title: '로베르토',
+  },
+  {
+    href: 'https://blog.naver.com/qkrducjs',
+    image: 'assets/images/blog.png',
+    title: '알곡켄넬',
+  },
+  {
+    href: 'https://blog.naver.com/coldbay',
+    image: 'assets/images/blog.png',
+    title: '콜드베이',
+  },
+  {
+    href: 'https://www.instagram.com/champion.kennel/',
+    image:
+      'https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png',
+    title: '챔피언켄넬',
+  },
+  // {
+  //   href: '',
+  //   image: '',
+  //   title: '',
+  // },
 ];
 // 빈려묘 입양
 const cats = [
   {
     href:
       'https://blog.naver.com/PostList.nhn?blogId=catopia9&from=postList&categoryNo=8',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '캣토피아 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/ejejs7894',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '엔젤돌스 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/ragdoll___',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '랙돌캐터리 (네이버 블로그)',
   },
   {
     href:
       'https://blog.naver.com/PostList.nhn?blogId=go4nam&from=postList&categoryNo=17',
-    image: '/assets/images/cat01.png',
+    image: 'assets/images/cat01.png',
     title: '묘한인생 (네이버 블로그) - 성남시 분당구',
   },
   {
     href: 'https://blog.naver.com/kokata100',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '나무타는 고양이와 구경하는 강아지',
   },
   {
     href: 'https://blog.naver.com/myohancattery',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '묘한캐터리 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/pixiewings',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '픽시윙스 데본렉스캐터리 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/dalbodre',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '스코티시폴드 캐터리 달보드레 (네이버 블로그)',
   },
   {
     href: 'https://blog.naver.com/fnfnfjfj',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '아메리칸 숏헤어 캐터리 (네이버 블로그)',
   },
+  {
+    href: 'https://blog.naver.com/abyqueen',
+    image:
+      'https://blogpfthumb-phinf.pstatic.net/20131118_111/abyqueen_1384747823305x80jc_JPEG/EDSC03093s-2.jpg?type=w161',
+    title: '아비퀸',
+  },
+  {
+    href: 'https://blog.naver.com/pama2003',
+    image: 'assets/images/blog.png',
+    title: '달래캐터리',
+  },
+  {
+    href: 'https://www.elrohicat.com',
+    image:
+      'https://static.wixstatic.com/media/fae27a_bf6778ee36f0449886dd3c74cf1ffaae~mv2.png/v1/fill/w_600,h_357,al_c,q_85,usm_0.66_1.00_0.01/%E1%84%8B%E1%85%A6%E1%86%AF%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B5_%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8E%E1%85%A9%E1%84%85%E1%85%A9%E1%86%BC%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%E1%86%AB_wh%E1%84%8B%E1%85%A6%E1%86%A8%E1%84%8C%E1%85%AD%E1%84%90%E1%85%B5%E1%86%A8%E1%84%86%E1%85%AE%E1%86%AB%E1%84%80%E1%85%AE.webp',
+    title: '엘로하이',
+  },
+  {
+    href: 'https://blog.naver.com/miki9950',
+    image: 'assets/images/blog.png',
+    title: '그린토파즈',
+  },
+  {
+    href: 'https://blog.naver.com/neverland_cat',
+    image: 'assets/images/blog.png',
+    title: '네버랜드 캣',
+  },
+  {
+    href: 'https://blog.naver.com/spariver',
+    image: 'assets/images/blog.png',
+    title: '스파리버',
+  },
+  {
+    href: 'https://blog.naver.com/nhyas2',
+    image: 'assets/images/blog.png',
+    title: '포래그',
+  },
+  {
+    href: 'https://blog.naver.com/suwonck',
+    image: 'assets/images/blog.png',
+    title: '글라우브',
+  },
+  {
+    href: 'https://blog.naver.com/appledolls',
+    image: 'assets/images/blog.png',
+    title: '애플돌스',
+  },
+  {
+    href: 'https://blog.naver.com/great_delight',
+    image: 'assets/images/blog.png',
+    title: '그래댈',
+  },
+  {
+    href: 'https://blog.naver.com/vavidolls',
+    image: 'assets/images/blog.png',
+    title: '바비돌',
+  },
+  {
+    href: 'https://blog.naver.com/mondscheinrb',
+    image: 'assets/images/blog.png',
+    title: '달빛',
+  },
+  {
+    href: 'https://blog.naver.com/kjhkuri',
+    image: 'assets/images/blog.png',
+    title: '소말리',
+  },
+  // {
+  //   href: '',
+  //   image: '',
+  //   title: '',
+  // },
 ];
 // 반려조 입양
 const birds = [
   {
     href: 'https://blog.naver.com/dnmparrotsfarm',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: 'D&M Parrots farm (네이버 블로그)',
   },
   {
@@ -135,7 +255,7 @@ const birds = [
   },
   {
     href: 'http://www.birdzoo.org/main.html',
-    image: 'http://www.birdzoo.org/m/images/logo.png',
+    image: 'assets/images/bird01.png',
     title: '앵무새동물원',
   },
   {
@@ -145,7 +265,7 @@ const birds = [
   },
   {
     href: 'https://blog.naver.com/PostList.nhn?blogId=badara8282',
-    image: '/assets/images/blog.png',
+    image: 'assets/images/blog.png',
     title: '충남.내포.앵무새농장 (네이버 블로그)',
   },
   {
@@ -156,8 +276,24 @@ const birds = [
   },
   {
     href: 'https://cafe.naver.com/birdskool',
-    image: '/assets/images/naver.png',
+    image: 'assets/images/naver.png',
     title: '버드스쿨 (네이버 카페)',
+  },
+  {
+    href: 'https://blog.naver.com/anziman',
+    image: 'assets/images/blog.png',
+    title: '대구앵무새농장',
+  },
+  {
+    href: 'https://blog.naver.com/gozip14',
+    image:
+      'https://blogpfthumb-phinf.pstatic.net/MjAxODEyMTlfMjU3/MDAxNTQ1MjA5ODgyMjQz._OmgOTnOfaWLCcQPTDWfOtDXL98jm2uwo5tfTz3ax5og.vXTh3mAzJ4y9rJoLRaawa4dO0XCTDX4c89xeLK2N2s4g.PNG.gozip14/%25C7%25C1%25B7%25CE%25C7%25CA.png?type=w161',
+    title: '앵무새 숲',
+  },
+  {
+    href: 'https://blog.naver.com/cabellan',
+    image: 'assets/images/blog.png',
+    title: '상주앵무새농장',
   },
 ];
 // 양서 파충류 입양
@@ -170,8 +306,7 @@ const reptiles = [
   },
   {
     href: 'http://www.jungle-pet.co.kr/shop/main/index.php',
-    image:
-      'http://www.jungle-pet.co.kr/shop/data/skin/everybag/img/banner/Copy-AD.jpg',
+    image: 'assets/images/jungle_pet.jpg',
     title: '정글펫',
   },
   {
@@ -249,25 +384,61 @@ const init = () => {
  * @param {HTMLUListElement} listDOM
  */
 const listLoop = (list, listDOM) => {
+  const className =
+    list === shelterAnimal
+      ? 'shelter-animal'
+      : list === dogs
+      ? 'dogs'
+      : list === cats
+      ? 'cats'
+      : list === birds
+      ? 'birds'
+      : 'reptiles';
+
   list.forEach((site, index) => {
     const li = document.createElement('li');
+    li.className = className;
 
     const a = document.createElement('a');
     a.href = site.href;
     a.target = '_blank';
+    a.className = className;
 
     const img = document.createElement('img');
     img.src = site.image;
     img.alt = site.title;
+    img.className = className;
 
     const div = document.createElement('div');
     div.innerText = site.title;
+    div.className = className;
 
     a.append(img, div);
     li.append(a);
-    // li.id = index;
+    li.className = className;
+
+    li.addEventListener('click', sendGA);
 
     listDOM.append(li);
+  });
+};
+
+const sendGA = (event) => {
+  const eventLabel =
+    event.target.className === 'shelter-animal'
+      ? '유기동물 입양'
+      : event.target.className === 'dogs'
+      ? '반려견 분양'
+      : event.target.className === 'cats'
+      ? '반려묘 분양'
+      : event.target.className === 'birds'
+      ? '반려조 분양'
+      : '반려파충류/양서류 분양';
+
+  console.log('call ga');
+  gtag('event', '분양 사이트 방문', {
+    event_category: '카테고리별 분양 사이트 방문',
+    event_label: eventLabel,
   });
 };
 
