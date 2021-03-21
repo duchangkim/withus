@@ -1,11 +1,11 @@
 // Data
 // 유기동물
 const shelterAnimal = [
-  {
-    href: 'https://dmanimal.co.kr/adoption',
-    image: 'https://cdn.imweb.me/thumbnail/20201125/80898b43122fb.png',
-    title: '도그마루 보호소',
-  },
+//   {
+//     href: 'https://dmanimal.co.kr/adoption',
+//     image: 'https://cdn.imweb.me/thumbnail/20201125/80898b43122fb.png',
+//     title: '도그마루 보호소',
+//   },
   {
     href: 'http://www.saac.kr/?act=board&bbs_code=sub2_1',
     image: 'assets/images/logo.jpg',
